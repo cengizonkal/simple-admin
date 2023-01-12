@@ -1,0 +1,28 @@
+{
+    "name": "conkal/simple-admin",
+    "description": "A simple admin template",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Conkal\\SimpleAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cengiz",
+            "email": "onkal.cengiz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Conkal\\SimpleAdmin\\SimpleAdminServiceProvider"
+            ]
+        }
+    }
+}
